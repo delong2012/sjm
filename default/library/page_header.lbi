@@ -1,0 +1,84 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="themes/default/css/header.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+var process_request = "{$lang.process_request}";
+</script>
+<script type="text/javascript" src="http://r.ytrss.com/rs/js/eva/1.0.3/eva-min.js?version=2012020902&amp;combine=true&amp;combobase=http://r.ytrss.com/a.aspx%3f&amp;base=http://r.ytrss.com/rs/js/yui/3.2.0/build/&amp;throwfail=false"></script>
+<!-- new header start -->
+<div id="hd">
+    <div class="header" id="eva_3_2_0_1_135306818057414">
+        <div class="ihead">
+            <div class="itop">
+                  <div class="ilog cf">
+                        <a class="msg-remind msg-close hidden" title="您暂时没有消息提醒" href="http://secure.yintai.com/myaccount/mymessage.aspx">0</a>
+                        <a class="ninvent" title="" href="http://promotion.yintai.com/20110719/new/index.html"></a>
+                        <a rel="nofollow" title="单击注册" class="reg" href="user.php?act=register">注册</a>
+                        <a rel="nofollow" class="login" title="单击登录" href="user.php">登录</a>
+                        <a class="cart" title="您的购物袋中现在有 0 件商品" href="flow.php">0</a>
+                 </div>
+                 <div class="">
+                    <div class="ilogo"><a title="" href="../index.php">YINTAILOGO</a></div>
+                    <div class="ipannel">
+                        <div class="isearch">
+			<form method="get" name="searchForm" id="searchForm" action="search.php">
+                            <button id="J_SearchBtn" title="搜索">搜索</button>
+                            <input type="text" autocomplete="off" value="22" name="keywords" class="place-holder">
+			</form>
+                        </div>                       
+                        <div class="olink">
+                            <ul>
+                                <li class="fir"><a rel="nofollow" target="_blank" href="http://news.yintai.com/">潮门户</a></li>
+                                <li><a rel="nofollow" target="_blank" title="" href="http://promotion.yintai.com/channels/store/index.html">实体店</a></li>
+                                <li><a rel="nofollow" target="_blank" title="" href="http://promotion.yintai.com/channels/mobile/index.html">手机银泰</a></li>
+                                <li><a rel="nofollow" title="" target="_blank" href="http://secure.yintai.com/pointmall/default.aspx">积分商城</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="imenu">
+            <div id="Y_navlist" class="inner">
+                <dl>
+                    <dt class=""><a target="_self" title="" href="../index.php">{$lang.home}</a></dt>
+                    <dd style="display: none;"></dd>
+                </dl>
+		<!--{foreach from=$categories item=cat}-->
+                <dl>
+                    <dt class=""><a target="_self" title="" href="{$cat.url}">{$cat.name|escape:html}</a></dt>
+	            <!--{if $cat}-->
+                    <dd>
+                        <div class="submenu cf">
+				<div class="sorts-list">
+					<div class="sorts-hot">
+						<p>
+						<!--{foreach from=$cat.cat_id item=child}-->
+							<a href="{$child.url}" target="_blank">{$child.name|escape:html}</a>
+						<!--{/foreach}-->
+						</p>
+					</div>
+				</div>
+			</div>
+                    </dd>
+                    <!--{/if}-->
+                </dl>
+		<!--{/foreach}--> 
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    if (typeof Env == "undefined") {
+        Env = {};
+    }
+    Env.loginUrl = "user.php?act=login";
+    Env.logOutUrl = "user.php?act=register";
+    Env.searchJSONUrl = "http://localhost/sjm/upload/search.php";
+    Env.searchUrl = "http://localhost/sjm/upload/search.php";
+    if (typeof Env.MyHome == "undefined") {
+        Env.MyHome = "/";    }
+    Eva.use("ui-header", function(Y) {
+    window.UI_header = new Y.UI.Header({ loginUrl: Env.loginUrl,myHomeUrl:Env.MyHome, logoutUrl: Env.logOutUrl, searchJSONUrl: Env.searchJSONUrl, searchUrl: Env.searchUrl });
+    });
+</script>
+<!-- new header end -->

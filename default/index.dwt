@@ -1,0 +1,846 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$page_title}</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link href="themes/default/css/bodyer.css" rel="stylesheet" type="text/css" />
+<link href="themes/default/css/homepage.css" rel="stylesheet" type="text/css" />
+<link href="themes/default/css/20110728.css" rel="stylesheet" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="RSS|{$page_title}" href="{$feed_url}" />
+{* 包含脚本文件 *}
+{insert_scripts files='common.js,index.js'}
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+<div id="bd">
+<div class="grid">
+	<!--幻灯片代码区-->		
+		<div id="Y_bigshow" style="overflow: hidden; position: relative; ">
+        <div class="tab-nav" style="bottom: 0px; ">
+            <div style="position: relative">
+                <div style="position: absolute; left: 50%; width: 980px;">
+                    <div style="float: left;">
+                        <ul class="tab-nav-list">                 
+                            <li class="li-home run-on-home">
+								<span class="run-on"><a href="javascript:void(0);"> 活动</a><i><b class="cur-arrow" style="display: none; "></b></i></span></li>
+							<li class="">
+								<span class="r-b"><a href="javascript:void(0);"> 服装</a><i><b class="cur-arrow" style="display: none; "></b></i></span></li>                            
+							<li class="">
+								<span class="r-b"><a href="javascript:void(0);"> 运动</a><i><b class="cur-arrow" style="display: none; "></b></i></span></li> 
+							<li class="">
+								<span class="r-b"><a href="javascript:void(0);"> 美妆</a><i><b class="cur-arrow" style="display: none; "></b></i></span></li>                           
+							<li class="">
+								<span class="r-b"><a href="javascript:void(0);"> 鞋包</a><i><b class="cur-arrow" style="display: none; "></b></i></span></li> 
+							<li class="tab-nav-active">
+								<span class="r-b"><a href="javascript:void(0);"> 名品</a><i><b class="cur-arrow" style="display: block; "></b></i></span></li> 
+							<li class="li-end run-on-end">
+								<span class="run-on"><em><a href="javascript:void(0);"> 抢购</a></em><i><b class="cur-arrow" style="display: none; "></b></i></span></li>
+	                      </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-content" style="overflow: visible; position: absolute; height: 3430px; top: -2450px; " id="eva_3_2_0_1_1358614119359523">       
+            <ul class="tab-panel" id="eva_3_2_0_1_1358614119359250" style="display: block; ">
+				<li class="w980h490" style="top:0;left:0;" id="eva_3_2_0_1_1358614119359529">
+					<a href="" target="_blank" id="eva_3_2_0_1_1358614119359526">
+					<img src="http://r1.ytrss.com/channel/home/syhdp/huodong/20120213-huodong-1.jpg">
+					<div class="mask-layer" style="opacity: 0; " id="eva_3_2_0_1_1358614119359522"></div></a>
+				</li>
+			</ul>      
+            <ul class="tab-panel" style="display: block; " id="eva_3_2_0_1_1358614119359550">
+				<li class="w560h350" style="top:0;left:0;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/fuzhuang/20120215fuzhuang-1.jpg" src="http://r1.ytrss.com/channel/home/syhdp/fuzhuang/20120215fuzhuang-1.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w350h140" style="top:350px;left:0;">
+					<a href="" target="_blank">
+					<img data-src=" http://r1.ytrss.com/channel/home/syhdp/fuzhuang/20120214fuzhuang-2.jpg
+" src=" http://r1.ytrss.com/channel/home/syhdp/fuzhuang/20120214fuzhuang-2.jpg
+">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w210h140" style="top:350px;left:350px;">
+					<a href="" target="_blank">
+					<img data-src=" http://r1.ytrss.com/channel/home/syhdp/fuzhuang/20120213fuzhuang-3.jpg" src=" http://r1.ytrss.com/channel/home/syhdp/fuzhuang/20120213fuzhuang-3.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w420h140" style="top:0;left:560px;">
+					<a href="" target="_blank">
+					<img data-src=" http://r1.ytrss.com/channel/home/syhdp/fuzhuang/20120213fuzhuang-4.jpg" src=" http://r1.ytrss.com/channel/home/syhdp/fuzhuang/20120213fuzhuang-4.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w420h350" style="top:140px;left:560px;">
+					<a href="" target="_blank">
+					<img data-src=" http://r1.ytrss.com/channel/home/syhdp/fuzhuang/20120213fuzhuang-5.jpg" src=" http://r1.ytrss.com/channel/home/syhdp/fuzhuang/20120213fuzhuang-5.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+			</ul>
+			<ul class="tab-panel" style="display: block; " id="eva_3_2_0_1_1358614119359622">
+				<li class="w350h490" style="top:0;left:0;" id="eva_3_2_0_1_1358614119359690">
+					<a href="" target="_blank" id="eva_3_2_0_1_1358614119359687">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/yundong/20120214yundong-1.jpg" src="http://r1.ytrss.com/channel/home/syhdp/yundong/20120214yundong-1.jpg">
+					<div class="mask-layer" style="opacity: 0; " id="eva_3_2_0_1_1358614119359684"></div></a>
+				</li>
+				<li class="w350h280" style="top:0;left:350px;" id="eva_3_2_0_1_1358614119359682">
+					<a href="" target="_blank" id="eva_3_2_0_1_1358614119359679">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/yundong/20120208yundong-2.jpg" src="http://r1.ytrss.com/channel/home/syhdp/yundong/20120208yundong-2.jpg">
+					<div class="mask-layer" style="opacity: 0; " id="eva_3_2_0_1_1358614119359676"></div></a>
+				</li>
+				<li class="w210h210" style="top:280px;left:350px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/yundong/20120215-yundong-3.jpg" src="http://r1.ytrss.com/channel/home/syhdp/yundong/20120215-yundong-3.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w140h210" style="top:280px;left:560px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/yundong/20120214yundong-4.jpg" src="http://r1.ytrss.com/channel/home/syhdp/yundong/20120214yundong-4.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w280h490" style="top:0;left:700px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/yundong/20120214yundong-5.jpg" src="http://r1.ytrss.com/channel/home/syhdp/yundong/20120214yundong-5.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+			</ul>
+			<ul class="tab-panel" style="display: block; " id="eva_3_2_0_1_1358614119359705">
+				<li class="w560h350" style="top:0;left:0;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/meizhuang/20120213meizhuang-1.jpg" src="http://r1.ytrss.com/channel/home/syhdp/meizhuang/20120213meizhuang-1.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w350h140" style="top:350px;left:0;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/meizhuang/20120214meizhuang-2.jpg" src="http://r1.ytrss.com/channel/home/syhdp/meizhuang/20120214meizhuang-2.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w210h140" style="top:350px;left:350px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/meizhuang/20120214meizhuang-3.jpg" src="http://r1.ytrss.com/channel/home/syhdp/meizhuang/20120214meizhuang-3.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w420h140" style="top:0;left:560px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/meizhuang/20120215meizhuang-4.jpg" src="http://r1.ytrss.com/channel/home/syhdp/meizhuang/20120215meizhuang-4.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w420h350" style="top:140px;left:560px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/meizhuang/20120209meizhuang-5.jpg" src="http://r1.ytrss.com/channel/home/syhdp/meizhuang/20120209meizhuang-5.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+			</ul>
+			<ul class="tab-panel" style="display: block; " id="eva_3_2_0_1_1358614119359724">
+				<li class="w560h490" style="top:0;left:0;">
+					<a href="" target="_blank">
+					<img data-src=" http://r1.ytrss.com/channel/home/syhdp/xiebao/20120106xiebao-1.jpg" src=" http://r1.ytrss.com/channel/home/syhdp/xiebao/20120106xiebao-1.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w210h140" style="top:0;left:560px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/xiebao/20120216xiebao-2.jpg" src="http://r1.ytrss.com/channel/home/syhdp/xiebao/20120216xiebao-2.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w210h350" style="top:140px;left:560px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/xiebao/20120216xiebao-3.jpg" src="http://r1.ytrss.com/channel/home/syhdp/xiebao/20120216xiebao-3.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w210h350" style="top:0;left:770px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/xiebao/20120216xiebao-4.jpg" src="http://r1.ytrss.com/channel/home/syhdp/xiebao/20120216xiebao-4.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w210h140" style="top:350px;left:770px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/xiebao/20120216xiebao-5.jpg" src="http://r1.ytrss.com/channel/home/syhdp/xiebao/20120216xiebao-5.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+			</ul>
+			<ul class="tab-panel" style="display: block; " id="eva_3_2_0_1_1358614119359743">
+				<li class="w560h350" style="top:0;left:0;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/mingpin/20120210mingpin-1.jpg" src="http://r1.ytrss.com/channel/home/syhdp/mingpin/20120210mingpin-1.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w350h140" style="top:350px;left:0;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/mingpin/20120217-mingpin-2.jpg" src="http://r1.ytrss.com/channel/home/syhdp/mingpin/20120217-mingpin-2.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w210h140" style="top:350px;left:350px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/mingpin/20120217mingpin-3.jpg" src="http://r1.ytrss.com/channel/home/syhdp/mingpin/20120217mingpin-3.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w420h140" style="top:0;left:560px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/mingpin/20120217mingpin-4.jpg" src="http://r1.ytrss.com/channel/home/syhdp/mingpin/20120217mingpin-4.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w420h350" style="top:140px;left:560px;">
+					<a href="" target="_blank">
+					<img data-src="http://r1.ytrss.com/channel/home/syhdp/mingpin/20120217mingpin-5.jpg" src="http://r1.ytrss.com/channel/home/syhdp/mingpin/20120217mingpin-5.jpg">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+			</ul>
+			<ul class="tab-panel" style="display: block; ">
+				<li class="w350h490" style="top:0;left:0;">
+					<a href="" target="_blank">
+					<img data-src="http://r.ytrss.com/channel/tmpd/20120220B1.jpg" alt="">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w350h280" style="top:0;left:350px;">
+					<a href="" target="_blank">
+					<img data-src="http://r.ytrss.com/channel/tmpd/20120220B2.jpg" alt="">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w210h210" style="top:280px;left:350px;">
+					<a href="" target="_blank">
+					<img data-src="http://r.ytrss.com/channel/tmpd/20120219B3.jpg" alt="">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w140h210" style="top:280px;left:560px;">
+					<a href="" target="_blank">
+					<img data-src="http://r.ytrss.com/channel/tmpd/20120220B4.jpg" alt="">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+				<li class="w280h490" style="top:0;left:700px;">
+					<a href="" target="_blank">
+					<img data-src="http://r.ytrss.com/channel/tmpd/20120219B5.jpg" alt="">
+					<div class="mask-layer" style="opacity: 0; "></div></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="api" style="display: none;">
+    <script type="text/javascript" src="http://r.ytrss.com/rs/js/ec/v3/homepage.js?v=2011112901"></script>
+    <script type="text/javascript" src="js/s_code.prd.20110818.js"></script>
+    <script type="text/javascript">
+        var mvHost = (("https:" == document.location.protocol) ? "https://secure." : "http://static.");
+        document.write(unescape("%3Cscript src='" + mvHost + "mediav.com/mv.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script src="http://static.mediav.com/mv.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        try {
+        var _mvsite = new $mvt.$site("m-256-0");
+        _mvsite.$logConversion();
+        } catch (err) { }
+    </script>
+    <script type="text/javascript"> 
+      /* <![CDATA[ */
+      var google_conversion_id = 991579136;
+      var google_conversion_language = "en";
+      var google_conversion_format = "3";
+      var google_conversion_color = "666666";
+      var google_conversion_label = "c2VHCJiO4AIQgJjp2AM";
+      var google_conversion_value = 0;   
+      /* ]]> */
+    </script>     
+    <script type="text/javascript" src="js/conversion.js"></script><img height="1" width="1" border="0" src="http://www.googleadservices.com/pagead/conversion/991579136/?random=1358614122500&amp;cv=7&amp;fst=1358614122500&amp;num=1&amp;fmt=3&amp;value=0&amp;label=c2VHCJiO4AIQgJjp2AM&amp;bg=666666&amp;hl=en&amp;guid=ON&amp;u_h=768&amp;u_w=1366&amp;u_ah=738&amp;u_aw=1366&amp;u_cd=32&amp;u_his=2&amp;u_tz=480&amp;u_java=true&amp;u_nplug=33&amp;u_nmime=130&amp;url=file%3A///E%3A/%25E5%25B0%259A%25E4%25BD%25B3%25E7%25BE%258E/%25E5%2594%25AF%25E4%25BC%258A%25E7%25BD%2591/%25E5%2594%25AF%25E4%25BC%258A%25E7%25BD%2591/%25E5%25A4%258D%25E4%25BB%25B6%25E8%25B4%25A9.htm">
+    <noscript>
+		&lt;div style="display:inline;"&gt;
+			&lt;img height="1" width="1" style="border-style:none;" alt="" src="http://www.googleadservices.com/pagead/conversion/991579136/?label=c2VHCJiO4AIQgJjp2AM&amp;amp;guid=ON&amp;amp;script=0"/&gt;
+		&lt;/div&gt;
+    </noscript>
+	<script type="text/javascript">
+      try {
+            var startTime = new Date().getTime();
+            var __gaAccount = 'UA-16290447-1';
+            var __gaDomain = '.yintai.com';
+            var __gaLocalGifPath='http://wa.yintai.com/__utm.gif';            
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', __gaAccount]);
+            _gaq.push(['_setLocalRemoteServerMode']);
+            _gaq.push(['_setLocalGifPath', __gaLocalGifPath]);
+            _gaq.push(['_setDomainName', __gaDomain]);
+            _gaq.push(['_setAllowHash', false]);
+            _gaq.push(['_setAllowLinker', true]);    
+            _gaq.push(['_trackPageLoadTime']);
+        
+        } catch (ex) { }        
+                 
+    </script>
+    <script type="text/javascript" src="http://r.ytrss.com/rs/js/ga/__ga.js?20120113"></script>       
+	<script language="javascript" type="text/javascript">	  
+	    try {
+	        s.pageName = "首页";
+	        s.channel = "首页";
+	        s.prop1 = "首页";
+	        s.prop2 = "首页";
+	        s.prop3 = "首页";
+	        s.prop4 = "home pages";
+	        s.prop8 = "None";
+	        s.prop9 = "None";
+	        s.eVar3 = "home";
+	        var s_code = s.t();
+	        if (s_code) document.write(s_code);
+	    } catch (ex) { }
+	</script>
+</div>
+<div id="header">
+	<div class="bgmain">	
+		<div class="toparea">
+			<div class="left">
+				<div id="banner">				
+					<span id="banner_1" style="display: block; ">
+									<a href="http://www.w1.cn/redirect_amount.php?from=index_2&amp;url=http://www.w1.cn/qianggou.php&amp;keyword=%E9%99%90%E6%97%B6%E6%8A%A2%E8%B4%AD&amp;keycommon=" target="_blank"><img src="images/newsite/jijiubang .jpg" title="限时抢购"></a>
+							</span>
+					<span id="banner_2" style="display: none; ">
+									<a href="http://www.w1.cn/redirect_amount.php?from=index_4&amp;url=http://www.w1.cn/goods-7972.html?PH=Search&amp;keyword=%E5%BF%83%E5%8A%A8%E7%89%B9%E4%BB%B7&amp;keycommon=" target="_blank"><img src="images/newsite/xindong .jpg" title="心动特价"></a>
+							</span>
+					<span id="banner_3" style="display: none; ">
+									<a href="http://www.w1.cn/redirect_amount.php?from=index_7&amp;url=http://www.w1.cn/at-saleout.html&amp;keyword=%E6%B8%85%E4%BB%93%E7%94%A9%E8%B4%A7&amp;keycommon=" target="_blank"><img src="images/newsite/qincang.jpg" title="清仓甩货"></a>
+							</span>
+					<span id="banner_4" style="display: none; ">
+									<a href="http://www.w1.cn/redirect_amount.php?from=index_8&amp;url=http://www.w1.cn/goods-4484.html?PH=Search&amp;keyword=%E6%9C%AC%E5%91%A8%E4%B8%BB%E6%89%93&amp;keycommon=" target="_blank"><img src="images/newsite/douru .jpg" title="本周主打"></a>
+							</span>
+				</div>
+				<div id="banner_m">
+					<ul>
+										<li id="banner_m_1" class="active">
+					<a href="javascript:;" onmouseover="showbanner(1)">限时抢购</a></li>
+										<li id="banner_m_2" class="">
+					<a href="javascript:;" onmouseover="showbanner(2)">心动特价</a></li>
+										<li id="banner_m_3" class="">
+					<a href="javascript:;" onmouseover="showbanner(3)">清仓甩货</a></li>
+										<li id="banner_m_4" class="">
+					<a href="javascript:;" onmouseover="showbanner(4)">本周主打</a></li>
+								
+					</ul>
+				</div>
+			</div>
+		<script language="Javascript">
+		setTimeout(function(){nextBanber();},3000);
+		var t;
+		function nextBanber(){
+			for(j=1;j<=4;j++){if($('#banner_'+j).css("display")!="none"){who=j;}}
+			var newwho=who+1;
+			if(newwho>4){newwho=1;}
+			for(s=1;s<=4;s++){
+					$("#banner_"+s).css("display","none");
+					$("#banner_m_"+s).attr("class","");
+			}
+			document.getElementById('banner_'+newwho).style.display="block";
+			document.getElementById('banner_m_'+newwho).className="active";
+			t=setTimeout(function(){nextBanber();},3000);
+		}
+		function showbanner(i){
+			clearTimeout(t);
+			setTimeout(function(){
+				for(j=1;j<=4;j++){
+					document.getElementById('banner_'+j).style.display="none";
+					document.getElementById('banner_m_'+j).className="";
+				}
+				document.getElementById('banner_'+i).style.display="block";
+				document.getElementById('banner_m_'+i).className="active";
+			},100);
+		}
+		
+		function showann(id,count)
+		{
+			for(s=1;s<=count;s++)
+			{
+				document.getElementById('ann_'+s).className = 'active'+s;
+				document.getElementById('tabcont'+s).style.display = 'none';
+			}
+			document.getElementById('ann_'+id).className = '';
+			document.getElementById('tabcont'+id).style.display = 'block';
+		}	
+		</script>
+		<div class="right">
+			<div class="tabbox">
+				<div class="title">
+					<ul>
+						<li onmouseover="showann(1,2)" id="ann_1">网站公告</li>
+						<li onmouseover="showann(2,2)" id="ann_2" class="active2">促销快报</li>
+					</ul>
+					<div style="clear:both"></div>
+				</div>
+				<div class="tabcont" id="tabcont1">
+					{$shop_notice}
+				</div>
+				<div class="tabcont" id="tabcont2" style="display:none;">
+					<ul>						
+						<!--{foreach from=$new_articles item=article}-->
+					        <li><a target="_blank" href="{$article.url}" title="{$article.title|escape:html}">{$article.short_title}</a></li>
+					        <!--{/foreach}-->
+					</ul>
+				</div>
+			</div>
+			<div style="margin-top:6px;">
+				<a href=""><img src="images/newsite/youce1.gif" title="" style="display:block"></a>
+			</div>
+			<div style="margin-top:7px;">
+				<a href=""><img src="images/newsite/youce2.gif" style="display:block"></a>
+			</div>
+
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+	<div class="middlearea">
+		<div class="left">
+			<div class="catlist">
+				<div class="title"><div class="titleleft"></div><div class="titleright"></div><div style="clear:both;"></div></div>
+				<div class="cathtml">
+					<!--{foreach from=$categories item=cat name=catName}-->
+					<!--{if $smarty.foreach.catName.iteration lt 3}-->
+					<div class="sonli">
+					<div class="catname">{$cat.name}</div>
+					<div class="catson">
+						<ul>
+						<!--{foreach from=$cat.cat_id item=catChild name=catNameCh}-->
+						<!--{if $smarty.foreach.catNameCh.iteration eq 1}-->
+							<li style="background:0;"><a href="{$catChild.url}" target="_blank">{$catChild.name|escape:html}</a></li>
+						<!--{else}-->
+							<li><a href="{$catChild.url}" target="_blank">{$catChild.name|escape:html}</a></li>
+						<!--{/if}-->
+						<!--{/foreach}-->
+							<div style="clear:both"></div>
+						</ul>
+					</div>
+					<div style="clear:both;"></div>
+					</div>
+					<!--{/if}-->
+					<!--{/foreach}-->
+					<div class="sonli">
+					<div class="catname">热门</div>
+					<div class="catson">
+						<ul>
+						<!--{foreach from=$categories_hot item=catHot name=catH}-->	
+						<!--{if $smarty.foreach.catH.iteration eq 1}-->
+							<li style="background:0;"><a href="../category.php?id={$catHot.cat_id}" target="_blank">{$catHot.cat_name|escape:html}</a></li>
+						<!--{else}-->
+							<li><a href="../category.php?id={$catHot.cat_id}" target="_blank">{$catHot.cat_name|escape:html}</a></li>
+						<!--{/if}-->
+						<!--{/foreach}-->
+							<div style="clear:both"></div>
+						</ul>
+					</div>
+					<div style="clear:both;"></div>
+					</div>
+					
+
+				</div>
+			</div>
+		<script language="Javascript">
+		function blshow(i){
+			
+			setTimeout(function(){
+				for(j=1;j<=6;j++){
+					document.getElementById('brandhtml_'+j).style.display="none";
+					
+					document.getElementById('brandlist_title_'+j).className="";
+				}
+				document.getElementById('brandhtml_'+i).style.display="block";
+				document.getElementById('brandlist_title_'+i).className="active";
+				
+			},200);
+		}
+		</script>
+			<div class="brandlist">
+				<div class="title">
+					<ul>
+						<li class="" id="brandlist_title_1" onmouseover="blshow(1)">热门品牌</li>
+						<li id="brandlist_title_2" onmouseover="blshow(2)" class="active">欧洲品牌</li>
+						<li id="brandlist_title_3" onmouseover="blshow(3)" class="">美国品牌</li>
+						<li id="brandlist_title_4" onmouseover="blshow(4)" class="">韩国品牌</li>
+						<li id="brandlist_title_5" onmouseover="blshow(5)" class="">日本品牌</li>
+						<li id="brandlist_title_6" onmouseover="blshow(6)" class="">中国品牌</li>
+						<div style="clear:both;"></div>
+					</ul>
+				</div>
+				<div class="brandhtml">			
+						<div id="brandhtml_1" class="brandicon" style="display: none; ">
+							<table cellpadding="0" cellspacing="0" border="0" width="100%">
+							<tbody>
+							<!--{foreach from=$brand_list.hot item=brandHot name=brandH}-->	
+							<!--{if $smarty.foreach.brandH.iteration % 5 eq 1}-->
+								<tr>
+							<!--{/if}-->
+									<td align="center">
+										<a href="{$brandHot.url}" target="_blank">
+										<img src="data/brandlogo/{$brandHot.brand_logo}" height="45" width="90" class="imgload" title="{$brandHot.brand_name}">
+										</a>												
+									</td>
+							<!--{if $smarty.foreach.brandH.iteration % 5 eq 5 or $smarty.foreach.brandH.last}-->
+								</tr>		
+							<!--{/if}-->
+							<!--{/foreach}-->
+							</tbody></table>
+						</div>
+						<div id="brandhtml_2" class="brandicon" style="display: block; ">
+							<table cellpadding="0" cellspacing="0" border="0" width="100%">
+							<tbody>
+							<!--{foreach from=$brand_list.ouzhou item=brandOuz name=brandoz}-->	
+							<!--{if $smarty.foreach.brandoz.iteration % 5 eq 1}-->
+								<tr>
+							<!--{/if}-->
+									<td align="center">
+										<a href="{$brandOuz.url}" target="_blank">
+										<img src="data/brandlogo/{$brandOuz.brand_logo}" height="45" width="90" class="imgload" title="{$brandOuz.brand_name}">
+										</a>												
+									</td>
+							<!--{if $smarty.foreach.brandoz.iteration % 5 eq 5 or $smarty.foreach.brandoz.last}-->
+								</tr>		
+							<!--{/if}-->
+							<!--{/foreach}-->
+							</tbody></table>
+						</div>
+						<div id="brandhtml_3" class="brandicon" style="display: none; ">
+							<table cellpadding="0" cellspacing="0" border="0" width="100%">
+								<tbody>								
+							<!--{foreach from=$brand_list.ameracan item=brandAme name=brandAm}-->	
+							<!--{if $smarty.foreach.brandAm.iteration % 5 eq 1}-->
+								<tr>
+							<!--{/if}-->
+									<td align="center">
+										<a href="{$brandAme.url}" target="_blank">
+										<img src="data/brandlogo/{$brandAme.brand_logo}" height="45" width="90" class="imgload" title="{$brandAme.brand_name}">
+										</a>												
+									</td>
+							<!--{if $smarty.foreach.brandAm.iteration % 5 eq 5 or $smarty.foreach.brandAm.last}-->
+								</tr>		
+							<!--{/if}-->
+							<!--{/foreach}-->
+							</tbody></table>
+						</div>
+						<div id="brandhtml_4" class="brandicon" style="display: none; ">
+						<table cellpadding="0" cellspacing="0" border="0" width="100%">
+								<tbody>					
+							<!--{foreach from=$brand_list.hanguo item=brandHan name=brandHa}-->	
+							<!--{if $smarty.foreach.brandHa.iteration % 5 eq 1}-->
+								<tr>
+							<!--{/if}-->
+									<td align="center">
+										<a href="{$brandHan.url}" target="_blank">
+										<img src="data/brandlogo/{$brandHan.brand_logo}" height="45" width="90" class="imgload" title="{$brandHan.brand_name}">
+										</a>												
+									</td>
+							<!--{if $smarty.foreach.brandHa.iteration % 5 eq 5 or $smarty.foreach.brandHa.last}-->
+								</tr>		
+							<!--{/if}-->
+							<!--{/foreach}-->
+							</tbody></table>
+						</div>
+						<div id="brandhtml_5" class="brandicon" style="display: none; ">
+							<table cellpadding="0" cellspacing="0" border="0" width="100%">
+								<tbody>						
+							<!--{foreach from=$brand_list.japan item=brandJap name=brandJp}-->	
+							<!--{if $smarty.foreach.brandJp.iteration % 5 eq 1}-->
+								<tr>
+							<!--{/if}-->
+									<td align="center">
+										<a href="{$brandJap.url}" target="_blank">
+										<img src="data/brandlogo/{$brandJap.brand_logo}" height="45" width="90" class="imgload" title="{$brandJap.brand_name}">
+										</a>												
+									</td>
+							<!--{if $smarty.foreach.brandJp.iteration % 5 eq 5 or $smarty.foreach.brandJp.last}-->
+								</tr>		
+							<!--{/if}-->
+							<!--{/foreach}-->
+							</tbody></table>
+						</div>
+						<div id="brandhtml_6" class="brandicon" style="display: none; ">
+							<table cellpadding="0" cellspacing="0" border="0" width="100%">
+								<tbody>								
+							<!--{foreach from=$brand_list.china item=brandChina name=brandCh}-->	
+							<!--{if $smarty.foreach.brandCh.iteration % 5 eq 1}-->
+								<tr>
+							<!--{/if}-->
+									<td align="center">
+										<a href="{$brandChina.url}" target="_blank">
+										<img src="data/brandlogo/{$brandChina.brand_logo}" height="45" width="90" class="imgload" title="{$brandChina.brand_name}">
+										</a>												
+									</td>
+							<!--{if $smarty.foreach.brandCh.iteration % 5 eq 5 or $smarty.foreach.brandCh.last}-->
+								</tr>		
+							<!--{/if}-->
+							<!--{/foreach}-->
+							</tbody></table>
+						</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="right">
+				<div style="width:240x;height:290px;">											
+						<div>
+							<script type="text/javascript">
+								var tmrStart=1329416362,tmrEnd=1329638400,_L=9;
+								var tmrHandle=setInterval(function _tmrFunc(){tmrStart=tmrStart+0.1;_L--;
+								if(tmrStart>tmrEnd){
+								clearInterval(tmrHandle);
+								document.location.href=document.location.href.replace(/#.*/gi,'');
+								return;
+								}
+								if(_L<0){_L=9;}
+								var _H 	= parseInt((tmrEnd-tmrStart)% 86400 / 3600)+parseInt((tmrEnd-tmrStart)/86400)*24;
+								var _M	= parseInt((tmrEnd-tmrStart) % 3600 / 60);
+								var _S	= parseInt((tmrEnd-tmrStart) % 60);
+								document.getElementById("restH").innerHTML=_H;
+								document.getElementById("restM").innerHTML=_M;
+								document.getElementById("restS").innerHTML=_S;
+								document.getElementById("restL").innerHTML=_L;
+								},100);
+								</script>
+							
+							<div style="margin:0px auto;background:url('http://css.w1.cn/bbs/banner/bbs/upload_img/20111125/naozhong.gif') no-repeat;height:29px;font-size:18px;font-weight:bold;color:#e3235c;">
+								<div style="padding-left:135px;line-height:25px;padding-top:3px;">
+									<div id="restH" style="float:left;margin-left:12px;_margin-left:6px;width:18px;text-align:center;">61</div>
+									<div id="restM" style="float:left;margin-left:14px;width:14px;">33</div>
+									<div id="restS" style="float:left;margin-left:13px;width:14px;">42</div>
+									<div id="restL" style="display:none;">7</div>	
+									<div style="clear:both;"></div>
+								</div>
+							</div>
+						</div>
+						
+						<div>
+							<a href="http://www.w1.cn/qianggou.php?id=80" target="_blank">
+								<img src="images/newsite/1328922273245409477.jpg" style="display:block;">
+							</a>
+						</div>
+									</div>
+		</div>
+		<div style="clear:both;"></div>
+	</div>
+	
+	<div style="padding:6px;">
+		<a href="http://www.w1.cn/brand-280.html" target="_blank"><img src="images/newsite/banner-3.jpg" width="938px;" height="60px;" style="display:block;" alt=""></a>
+	</div>
+
+	<div class="productarea_1">
+		<div class="title">
+			<ul>
+				<li class="" id="productarea_title_1" onmouseover="xpshow(1)">热卖产品</li>
+				<li id="productarea_title_2" onmouseover="xpshow(2)" class="">明星单品</li>
+				<li id="productarea_title_3" onmouseover="xpshow(3)" class="">新品上架</li>
+				<li id="productarea_title_4" onmouseover="xpshow(4)" class="active">清仓促销</li>
+				<div style="clear:both;"></div>
+			</ul>
+		</div>
+		<script language="Javascript">
+		function xpshow(i){
+			setTimeout(function(){
+				for(j=1;j<=4;j++){
+					document.getElementById('product_list_'+j).style.display="none";
+					document.getElementById('productarea_title_'+j).className="";
+				}
+				document.getElementById('product_list_'+i).style.display="block";
+				document.getElementById('productarea_title_'+i).className="active";
+				
+			},100);
+		}
+		</script>
+		<div class="product_list" id="product_list_1" style="display: none; ">
+			<ul>  
+				<!--{foreach from=$hot_goods item=goods name=hot}-->
+				<!--{if $smarty.foreach.hot.iteration % 6 eq 0}-->
+				<li class="last">
+				<!--{else}-->
+				<li>
+				<!--{/if}-->
+					<div class="product_img">
+						<a href="{$goods.url}" target="_blank"><img src="{$goods.thumb}" class="imgload"></a>
+					</div>						
+					<div class="product_name">{$goods.short_style_name}</div>
+					<div class="product_price"><span class="nprice">{$goods.shop_price}</span><span class="oprice">{$goods.market_price}</span></div>
+				</li>
+				<!--{/foreach}-->
+				<div style="clear:both;"></div>
+			</ul>
+		</div>
+
+		<div class="product_list" id="product_list_2" style="display: none; ">
+			<ul>
+				<!--{foreach from=$oneProduce_goods item=goods name=one}-->
+				<!--{if $smarty.foreach.one.iteration % 6 eq 0}-->
+				<li class="last">
+				<!--{else}-->
+				<li>
+				<!--{/if}-->
+					<div class="product_img">
+						<a href="{$goods.url}" target="_blank"><img src="{$goods.thumb}" class="imgload"></a>
+					</div>						
+					<div class="product_name">{$goods.short_style_name}</div>
+					<div class="product_price"><span class="nprice">{$goods.shop_price}</span><span class="oprice">{$goods.market_price}</span></div>
+				</li>
+				<!--{/foreach}-->
+				<div style="clear:both;"></div>
+			</ul>
+		</div>
+
+
+		<div class="product_list" id="product_list_3" style="display: none; ">
+			<ul>
+				<!--{foreach from=$new_goods item=goods name=new}-->
+				<!--{if $smarty.foreach.new.iteration % 6 eq 0}-->
+				<li class="last">
+				<!--{else}-->
+				<li>
+				<!--{/if}-->
+					<div class="product_img">
+						<a href="{$goods.url}" target="_blank"><img src="{$goods.thumb}" class="imgload"></a>
+					</div>						
+					<div class="product_name">{$goods.short_style_name}</div>
+					<div class="product_price"><span class="nprice">{$goods.shop_price}</span><span class="oprice">{$goods.market_price}</span></div>
+				</li>
+				<!--{/foreach}-->
+				<div style="clear:both;"></div>
+			</ul>
+		</div>
+
+
+		<div class="product_list" id="product_list_4" style="display: block; ">
+			<ul>
+				<!--{foreach from=$fastSale_goods item=goods name=fastSale}-->
+				<!--{if $smarty.foreach.fastSale.iteration % 6 eq 0}-->
+				<li class="last">
+				<!--{else}-->
+				<li>
+				<!--{/if}-->
+					<div class="product_img">
+						<a href="{$goods.url}" target="_blank"><img src="{$goods.thumb}" class="imgload"></a>
+					</div>						
+					<div class="product_name">{$goods.short_style_name}</div>
+					<div class="product_price"><span class="nprice">{$goods.shop_price}</span><span class="oprice">{$goods.market_price}</span></div>
+				</li>
+				<!--{/foreach}-->
+				<div style="clear:both;"></div>
+			</ul>
+			
+		</div>
+
+
+	</div>
+
+	<!--{foreach from=$cateRecomGoods item=crGoods name=cr}-->
+	<div class="productarea_f">
+		<div class="title">
+			<div class="left hufu"></div>
+			<div class="right">
+				<ul>
+					<!--{foreach from=$crGoods.catesInfo item=crGood name=crName}-->
+					<!--{if $smarty.foreach.crName.iteration eq 1}-->
+						<li style="background:0;"><a href="category.php?id={$crGood.cat_id}" target="_blank">{$crGood.cat_name|escape:html}</a></li>
+					<!--{else}-->
+						<li><a href="category.php?id={$crGood.cat_id}" target="_blank">{$crGood.cat_name|escape:html}</a></li>
+					<!--{/if}-->
+					<!--{/foreach}-->
+					<div style="clear:both;"></div>
+				</ul>
+			</div>
+			<div style="clear:both;"></div>
+		</div>
+		<div class="product_sale_info">
+			<div class="left">
+				<a href="http://www.w1.cn/goods-3272.html" target="_blank">
+					<img src="images/qb.jpg" title="">
+				</a>
+			</div>
+			<div class="center">
+				<a href="http://www.w1.cn/brand-306.html" target="_blank">		
+					<img src="images/mengzhuang.jpg" title="">
+				</a>
+			</div>
+			<div class="right">
+				<div class="image_1">
+					<a href="http://www.w1.cn/brand-111.html" target="_blank">
+						<img src="images/111.jpg" title="" width="234x;" height="74px;">
+					</a>
+				</div>
+				<div class="image_2">
+					<a href="http://www.w1.cn/brand-140.html" target="_blank">
+						<img src="images/hh-2.jpg" title="" width="234x;" height="74px;">
+					</a>
+				</div>
+				<div class="image_3">
+					<a href="http://www.w1.cn/brand-47.html" target="_blank">
+						<img src="images/hh-3.jpg" title="" width="234x;" height="74px;">
+					</a>
+				</div>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+		<div class="product_list">
+			<ul>
+			<!--{foreach from=$crGoods.goodsInfo item=goodsIn name=gsName}-->
+			<!--{if $smarty.foreach.gsName.iteration % 6 eq 0}-->
+			<li class="last">
+			<!--{else}-->
+			<li>
+			<!--{/if}-->
+				<div class="product_img">
+					<a href="{$goodsIn.url}" target="_blank"><img src="{$goodsIn.thumb}" class="imgload"></a>
+				</div>						
+				<div class="product_name">{$goodsIn.short_style_name}</div>
+				<div class="product_price"><span class="nprice">{$goodsIn.shop_price}</span><span class="oprice">{$goodsIn.market_price}</span></div>
+			</li>
+			<!--{/foreach}-->
+			</ul>
+			<div style="clear:both;"></div>
+		</div>
+	</div>
+	<!--{/foreach}-->
+</div>
+
+<script type="text/javascript">
+var process_request = "正在处理您的请求...";
+</script>
+
+<div id="cat_div">
+<div id="catBag">
+<div id="sbWrapper">
+<div id="sbHdWp">
+
+
+	<div class="showBt2" id="caseOpen"><a href="http://chat.53kf.com/company.php?arg=weyii&amp;style=2" target="_blank" class="btOpen2"></a></div>
+
+	<div class="sbTxt01" style="width:280px;"><span id="ECS_CARTINFO"><a href="http://www.w1.cn/flow.php" title="查看购物车">您的购物车中有 0 件商品，总计金额 0.00。</a></span></div>
+	<div class="raised01" style="margin-top:4px;">
+		<div class="boxcontent" onclick="location='flow.php'">去结账</div>
+	</div>
+	<div class="tabBtArea5">
+		<div class="raised01">
+			<div class="boxcontent" onclick="location='flow.php'">购物车</div>
+		</div>
+
+
+		<div class="raised01">
+			<div class="boxcontent" onclick="location='user.php'">用户中心</div>
+		</div>	
+
+
+		<div class="raised01">
+			<div class="boxcontent" onclick="location='user.php?act=order_list'">我的订单</div>
+		</div>
+
+		<div class="raised01">
+			<div class="boxcontent" onclick="location='user.php?act=collection_list'">我的收藏</div>
+		</div>	
+	</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</div>
+</body>
+</html>

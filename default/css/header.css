@@ -1,0 +1,90 @@
+/*{head & foot share pics}*/
+#hd,#ft,.itips{background:url(../images/newsite/sprit-bg-0824.png) repeat-x;}
+.imenu .inner .selected{background:url(../images/newsite/sele.png) repeat-x;}
+.ilog .cart,.ilog .invent,.ilog .msg-remind,.ilogo a,.ipannel li,.isearch,.imenu .inner .all,.imenu .inner .flag,.cartlist .close,.ilinks a,.itips span,.itips a,.account{ background:url(../images/newsite/sprit-hf_1201.gif) no-repeat} 
+/*{head & foot share pics end}*/
+
+/*{head}*/
+#hd{background-position:0 -420px;height:134px;position:relative;z-index:200;}
+.header,.ifoot{width:980px;margin:0 auto;}
+.ihead{height:85px;padding-top:5px;_height:84px;}
+.ihead a{color:#aaa;}
+.ihead a:hover{color:#ccc;}
+.ilog{text-align:right;height:37px;}
+.ilog a{float:right;overflow:hidden;margin-left:15px;}
+.ilog a.login,.ilog a.reg {height:22px;line-height:15px;padding-top:10px;}
+.ilog .cart{background-position:-270px -3px;width:30px;padding-left:30px;height:32px;line-height:32px;text-align:center;color:#ccc;}
+.ilog .ninvent{margin-top:5px;height:23px; width:103px; background:url(../images/index-ad-0720.gif) no-repeat;}
+.ilogo{float:left;position:absolute;top:22px;}
+.ilogo a{background-position:0 0;width:209px;height:53px;display:block;text-indent:-1000em;}
+.ipannel{float:right;margin-top:18px;padding-bottom:0px;}
+.ipannel li{background-position:0 -213px;float:left;padding:0 12px;line-height:15px;display:inline;}.ipannel li.fir{background:none;}
+.isearch{background-position:0 -53px;float:left;width:194px;height:22px;margin-right:10px;position:relative;z-index:2;}
+.isearch a{display:block;width:30px;height:20px;float:left;text-indent:-1000em;}
+.isearch button{display: block;float:right;height: 20px;text-indent: -1000em;width:30px;background:transparent;border:none;cursor:pointer;}
+.isearch input{display:block;width:160px;height:14px;padding:3px 0 2px 4px;float:left;background:transparent;border:none; color:#333;}
+.olink{float:left;margin-top:2px;}
+
+.imenu{height:45px;background-position:0 -245px;}
+.imenu .inner{width:980px;height:36px;margin:0 auto;position:relative;}
+.imenu .inner dt a{font:700 14px/1em '微软雅黑';color:#eee;}
+.imenu .inner .flag{background-position:34px -110px;_background-position:34px -112px;width:97px;padding-left:26px;padding-right:6px;}
+.imenu .inner .all{background-position:20px -76px;_background-position:20px -78px;padding-left:28px;padding-right:12px;}
+.imenu .inner .limit{padding-left:16px;padding-right:34px;}
+.limit-new {width:21px;height:12px;position:absolute;top:8px;left:85px;background:url(../images/limit-new.png) 0 0 no-repeat;}
+.imenu .inner dl{float:left;height:38px;}
+.imenu .inner dt {position:relative;}
+.imenu .inner dd{display:none;}
+.imenu .inner dl dt a{height:28px;_height:27px;overflow:hidden;padding-top:10px;width:76px;display:block;text-align:center}
+.ifengmenu .inner dl dt a {width:89px;}
+.imenu .inner a.selected{background:url(../images/newsite/sele.png) repeat-x scroll 0 0 transparent;}
+.submenu{width:640px;padding-bottom:10px;position:absolute;z-index:1000;top:36px;left:76px;background:#434039 url(/rs/img/EC/v3/headerNav_bg.png) repeat-y;opacity:0.9;filter:alpha(opacity:90);}
+.ifengmenu .submenu {left:89px;}
+.sorts-list {float:left;width:332px;padding:0 10px;}
+.sorts-hot,.sorts-brand {margin-top:5px;background:url(/rs/img/EC/v3/index_Nav_1.gif) 0 32px repeat-x;}
+.sorts-hot h3,.sorts-repeat h3 {float:left;width:58px;padding-right:22px;text-align:right;font-size:12px;color:#fff;}
+.sorts-hot p,.sorts-repeat p {float:left;width:501px;}
+.sorts-hot p a,.sorts-repeat p a {margin:0 3px;color:#ddd;display:inline-block;}
+.submenu a:hover{color:#fff6d7;}
+.sorts-repeat {padding:6px 0 8px;border-bottom:1px dotted #666;}
+.sorts-none {border:none;}
+.sorts-repeat h3 {line-height:25px;}
+.sorts-repeat h3 a {color:#fff;}
+.sorts-repeat p {line-height:24px;}
+.sorts-related {float:left;width:278px;padding-left:10px;}
+.sorts-brand {width:268px;background-position:0 32px;}
+.sorts-brand h3 {float:left;width:58px;padding-right:22px;text-align:right;font-size:12px;color:#fff;}
+.sorts-brand a {float:right;margin-right:9px;display:inline;color:#fff;}
+.sorts-blist {width:269px;padding-top:6px;padding-left:9px;padding-bottom:10px;line-height:24px;}
+.sorts-blist a {margin-right:8px;color:#ddd;display:inline-block;}
+.sorts-promo {width:259px;height:26px;padding-left:9px;background:url(/rs/img/EC/v3/index_Nav_1.gif) 0 24px repeat-x;color:#fff;}
+.sorts-news {width:259px;padding-left:9px;padding-top:5px;padding-bottom:10px;}
+.sorts-news li {padding-left:12px;line-height:20px;background:url(/rs/img/EC/v3/index_Nav_1.gif) 0 -24px no-repeat;}
+.sorts-news li a {color:#ddd;}
+
+
+
+#hd .account{background-position:0 -280px;width:89px;height:23px;padding-top:1px;height:21px\0;padding-top:3px\0;*height:21px;*padding-top:3px;_height:21px;_padding-top:3px;overflow:hidden;text-align:center;color:#eee;display:inline-block;margin-top:5px;}
+#hd .account:hover{color:#fff;}
+    /*{add nav begin}*/
+.se_nav,.se_nav_inside,.se_nav_bg,.se_nav_list{width:100%;}
+.se_nav,.se_nav_bg,.se_nav_list{ position:absolute;}
+.se_nav{ bottom:7px; z-index:-1;}
+.se_nav_inside{ position:relative; left:0; top:0;}
+.se_nav_bg{ height:30px; background:#595959; filter:alpha(opacity:20); opacity:0.2;}
+.se_nav_list ul{ width:936px; margin:0 auto;}
+.se_nav_inside ul li{float:left;line-height:30px;height:30px; display:inline;margin-left:0;margin-right:96px;}
+.se_nav_inside ul li a,.se_nav_inside ul li{ color:#414546;}
+.se_nav_inside ul li.se_nav_cl{margin:0;}
+    /*{add nav end}*/
+/*{head end}*/
+
+/*智能搜索框样式 by sgz*/
+.keywords-list{width:160px;position:absolute;top:22px;border:1px solid #808080;border-top:none;left:3px;top:20px;z-index:99999;background:#eee;display:none;zoom:1;overflow:hidden;}
+.keywords-list ul{padding:10px 0;}
+.keywords-list li{background:none;cursor:pointer;clear:both;float:none;padding:0;line-height:20px;display:block;zoom:1;}
+.keywords-list .split-line{border-bottom: 1px solid #FFFFFF;border-top: 1px solid #D2D2D2;height: 0;margin: 6px 10px 4px;overflow: hidden;+margin-top:-7px;}
+.keywords-list .cur-cat{padding-left:12px;}
+.keywords-list .cur-cat strong{color:#e5004f;font-weight:normal;}
+.keywords-list li div{padding:0 10px;width:140px;}
+.keywords-list .selected{background:#ddd;color:#e5004f;}
