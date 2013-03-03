@@ -23,7 +23,7 @@
 <!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
 <div id="bd">
 <div class="grid">
-	<!--幻灯片代码区-->		
+	<!--幻灯片 代码区-->		
 		<div id="Y_bigshow" style="overflow: hidden; position: relative; ">
         <div class="tab-nav" style="bottom: 0px; ">
             <div style="position: relative">
